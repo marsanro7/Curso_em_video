@@ -1,5 +1,25 @@
 @charset "UTF-8";
 
+
+body{
+    height: 100vh;
+    background: url(imagem/wallpaper002.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-size: cover;
+
+
+}
 h1{
     color:rgb(48, 20, 207);
+    background-size: cover;
+}
+main{
+    width: 400px;
+    background-color: white;
+    margin: auto auto;
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(99, 97, 97) ;
 }
