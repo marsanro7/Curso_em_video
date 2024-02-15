@@ -3,7 +3,19 @@
 
 #container{
    position: relative;
-   background: url(/imagem/target001.png);
    background-size: 100% 100%;
+   height: 96vh;
    background-color: blueviolet;
 }
+.conteudo{
+   position: absolute;
+   background-color: yellow;
+   width: 400px;
+   height: 200px;
+
+   /*As linhas abaixo, fazem com que um conteudo, seja centralizado*/
+   left: 50%;
+   top: 50%;
+   transform: translate(-50%, -50%);
+}
+
