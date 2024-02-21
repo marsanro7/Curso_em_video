@@ -10,6 +10,20 @@
         min-height: 100vh;
         background-color: darkgray;
     }
-	h1{
-		color: blue;	
-	}	
+	header{
+		background-color: black;
+        color: white;
+        text-align: center;
+        padding: 50px;
+    }	
+    header h1{
+       font-variant: small-caps; 
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        font-weight: bolder;
+    }
+    a:hover{
+        text-decoration: underline;
+    }
