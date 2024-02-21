@@ -8,7 +8,7 @@
     }
     html, body{
         min-height: 100vh;
-        background-color: dark;
+        background-color: darkgray;
     }
 	h1{
 		color: blue;	
