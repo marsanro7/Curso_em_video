@@ -10,6 +10,8 @@
         min-height: 100vh;
         background-color: darkgray;
     }
+
+/*CONFIGURAÇOES CABEÇALHO -Header e links*/    
 	header{
 		background-color: black;
         color: white;
@@ -26,4 +28,31 @@
     }
     a:hover{
         text-decoration: underline;
+    }
+/*CONFIGURAÇÂO DOS CONTEUDOS PRINCIPAIS-meio*/
+    section{
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        line-height: 2em;  /*Espaçamentos entre linhas de um texto*/
+        padding-left: 30px;
+    }
+    section#normal{
+        background-color: white;
+    }
+    section.imagem{
+        background-color: dimgray;
+        color: white;
+
+    }
+    section.imagem p{
+        width: 400px;
+        background-color: rgb(0, 0, 0, 0.253);    
+    }
+
+/*CONFIGURAÇOES RODAPE - footer*/
+    footer{
+        background-color: black;
+        padding: 10px;
+        text-align: center;
+        color: white;
     }
